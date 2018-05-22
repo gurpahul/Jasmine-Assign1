@@ -54,11 +54,11 @@ describe("returns an array with elements inserted", function(){
         expect(reverseSeq(1,2,3,4,5,6,7,)).toBe([1]);
     })
 
-    it("allways returns a array", function(){
+    it("allways returns a array with elements pushed in array", function(){
         expect(reverseSeq([])).toBe([]);
     })
 
-    it("", function(){
+    it("allways loop through each element", function(){
         expect(reverseSeq()).toBe();
     })
 })
