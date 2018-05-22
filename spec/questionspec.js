@@ -51,14 +51,14 @@ describe("Characters in the string", function(){
 
 describe("returns an array with elements inserted", function(){
     it("accepts numbers only in parameter", function(){
-        expect(reverseSeq(1,2,3,4,5,6,7,)).toBe([1]);
+        expect(reverseSeq(5)).toEqual([5,4,3,2,1]);
     })
 
     it("allways returns a array with elements pushed in array", function(){
-        expect(reverseSeq([])).toBe([]);
+        expect(reverseSeq()).toEqual([]);
     })
 
     it("allways loop through each element", function(){
-        expect(reverseSeq()).toBe();
+        expect(reverseSeq(-4)).toEqual([]);
     })
 })
