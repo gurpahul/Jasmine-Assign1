@@ -17,11 +17,11 @@ describe("determine the positive numbers in array" , function(){
 })
 
 describe("return true or false when a number is divisible by divisor", function(){
-    it("When a number is divisible by both of the provided divisors, it should return true.", function(){
+    it("When a number is divisible by both of the provided divisors, it should return true", function(){
         expect(isDivisible(28,4,7)).toBe(true);
     })
 
-    it("When the number is smaller then both the provided divisors, it should return false.", function(){
+    it("When the number is smaller then both the provided divisors, it should return false", function(){
         expect(isDivisible(9,99,999)).toBe(false);
     })
 
@@ -29,7 +29,7 @@ describe("return true or false when a number is divisible by divisor", function(
         expect(isDivisible(200,10,11)).toBe(false);
     })
 
-    it("When the number is not divisible by any of the provided divisors it should return false.", function(){
+    it("When the number is not divisible by any of the provided divisors it should return false", function(){
         expect(isDivisible(72,5,15)).toBe(false);
     })
 })
@@ -39,11 +39,11 @@ describe("Characters in the string", function(){
         expect(solution("g")).toBe("g");
     })
 
-    it("there are multiple characters in the string it returns the string, reversed.", function(){
+    it("there are multiple characters in the string it returns the string, reversed", function(){
         expect(solution("g,u,r,p")).toBe("p,r,u,g");
     })
 
-    it("there are no characters in the string, it returns empty string.", function(){
+    it("there are no characters in the string, it returns empty string", function(){
         expect(solution("")).toBe("");
     })
 
